@@ -131,11 +131,11 @@ a:hover{
 
 .title__items{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .item__foto{
-    border-radius: 50%;
+    border-radius: 30%;
     height: 130px;
     width: 130px;
     cursor: pointer;
@@ -203,6 +203,27 @@ a:hover{
 
 
 
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+
+
 
 @media (max-width:600px)
 {
@@ -220,13 +241,13 @@ a:hover{
     }
 
     .nav-item{
-        font-size: 17px;
-        margin-right:10px;
-        margin-left: 10px;
+        font-size: 16px;
+        margin-right:5px;
+        margin-left: 5px;
     }
 
     .item__foto{
-        border-radius: 50%;
+        border-radius: 35%;
         height: 80px;
         width: 80px;
         cursor: pointer;
@@ -264,7 +285,7 @@ a:hover{
     }
 
 
-/* se agregó modal  ---------------------    */
+    /* se agregó modal  ---------------------    */
 
 
     .ful-img{
@@ -295,29 +316,17 @@ a:hover{
         max-width: 600px;
     }
 
-/*
-    .btnPrecio {
-	
-        font-family: 'Barlow', sans-serif;
-        font-size: 20px;
-        border-radius: 20px;
-        margin-top: 20px;
-        background: none;
-        height: 20px;
-        color: var(--primario);
-        padding: 0 100px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid var(--primario);
-        cursor: pointer;
-        transition: .3s ease all;
-        outline: none;
+    p{
+        color: grey;
     }
-*/
 
+    /*  ---------------------   */
 
-/*  ---------------------   */
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
 
 }
     
