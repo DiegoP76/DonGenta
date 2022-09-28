@@ -299,6 +299,7 @@ a:hover{
         align-items: center;
         justify-content: center;
         z-index: 99;
+        
     }
     
     .ful-img span{
@@ -314,6 +315,7 @@ a:hover{
     .ful-img img{
         width: 90%;
         max-width: 600px;
+        border-radius: 5%;
     }
 
     p{
